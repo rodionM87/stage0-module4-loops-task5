@@ -4,10 +4,10 @@ public class Triangle {
     public void printTriangle(int cathetusLength) {
         String strVar = "";
         int count = 0;
-        if (sideLength == "") {
+        if (cathetusLength == "") {
             strVar = "test";
         } else {        
-            for (char iter:sideLength.toCharArray()) {
+            for (char iter:cathetusLength.toCharArray()) {
                 if (iter == '\n') {
                     count++;
                 }
